@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-size: 18px;
+  font-family: Kumbh Sans;
+}
+
+.container{
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.card{
+  width: 400px;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  text-align: center;
+  z-index: 1;
+}
+
+.bg-head{
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+}
+
+.hero{
+  border-radius: 50%;
+  border: 8px solid white;
+  margin-top: -57px;
+}
+
+.text{
+  line-height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.flex-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  line-height: 30px;
+}
+
+strong{
+  font-size: 18.72px;
+  margin-top: 50px;
+}
+
+.background-container{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.bg-top{
+  position: absolute;
+  left: -27pc;
+  top: -34pc;
+}
+
+.bg-bottom{
+  position: absolute;  
+  left: 33pc;
+  top: 30pc; 
+}
