@@ -42,6 +42,10 @@ body{
   margin-bottom: 10px;
 }
 
+span{
+  font-weight: lighter;
+}
+
 .flex-wrapper{
   display: flex;
   justify-content: space-evenly;
@@ -84,7 +88,7 @@ strong{
   justify-content: centr;
   align-items: center;
   background-color: hsl(185, 75%, 39%);
-  /* background: red; */
+
 }
 
 .card{
@@ -110,6 +114,10 @@ strong{
   line-height: 40px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+span{
+  font-weight: lighter;
 }
 
 .flex-wrapper{
